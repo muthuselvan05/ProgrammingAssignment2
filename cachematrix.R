@@ -7,6 +7,7 @@
 ## get matrix - function
 ## set inverse - function
 ## get inverse - function
+## Returns the matrix list - functions
 
 makeCacheMatrix <- function(x = matrix()) {
 inv <- NULL
