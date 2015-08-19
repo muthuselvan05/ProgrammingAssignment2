@@ -2,6 +2,11 @@
 ## functions do
 
 ## Write a short comment describing this function
+##This function returns the list containing the a function
+## set matrix - function 
+## get matrix - function
+## set inverse - function
+## get inverse - function
 
 makeCacheMatrix <- function(x = matrix()) {
 inv <- NULL
@@ -17,6 +22,8 @@ inv <- NULL
 
 
 ## Write a short comment describing this function
+## calcutes the inverse
+## check whether it is already available
 
 cacheSolve <- function(x, ...) {
        inv <- x$getinverse()
