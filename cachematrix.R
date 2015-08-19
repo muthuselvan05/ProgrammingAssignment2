@@ -24,6 +24,7 @@ inv <- NULL
 ## Write a short comment describing this function
 ## calcutes the inverse
 ## check whether it is already available
+## If not availble, then it computes the inverse
 
 cacheSolve <- function(x, ...) {
        inv <- x$getinverse()
@@ -36,3 +37,5 @@ cacheSolve <- function(x, ...) {
     x$setinverse(inv)
     inv
 }
+
+##
